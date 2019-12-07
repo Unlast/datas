@@ -49,3 +49,11 @@ vue --version                 : version de vue
 npm i -g vue                  :update vue
 npm i -g vue-cli              :update vue-cli
 
+//JENKINS
+//iniciar a traves de la cmd
+cd ubicacion-de-jenkins
+java -jar jenkins.war  
+
+//Cambiar puerto de jenkins
+java -jar jenkins.war --httpPort=9090
+java -jar jenkins.war --httpsPort=9090
