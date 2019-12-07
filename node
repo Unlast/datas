@@ -1,0 +1,23 @@
+//Instalar Angular
+
+npm install -g npm@latest       : Actualizar npm
+
+npm cache clean --force         : Borrar cache
+
+npm set audit false             : desactivar las auditorias de npm para evitar fallos
+
+npm uninstall -g angular-cli    : Desinstalar los paquetes anteriores de Angular cli
+npm uninstall -g @angular/cli   :
+
+npm cache clean --force 
+
+npm install -g @angular/cli@latest  : Instalar la ultima version de angular
+
+Primero nos pedirá el nombre del proyecto
+Nos preguntará si queremos añadir el routing de angular, diremos que NO
+Nos preguntará si queremos usar un formato especifico para los estilos css, le daremos a enter simplemente
+Esperamos a que el asistente acabe de generar nuestro proyecto de Angular 7
+
+cd NOMBRE_DEL_PROYECTO
+ng serve
+//(http://localhost:4200/)
