@@ -1,5 +1,6 @@
 git config --global user.email	:  mail 
 git config --global user.name 	:  usuario
+git config --list		: muestra configuracion
 
 pwd 				: ubicacion del directorio
 cd  				: cambio de directorio
@@ -7,7 +8,7 @@ mkdir				: crea una carpeta dentro del directorio
 ls				: muestra los archivos dentro de la carpeta
 git init			: inicializa el git
 git status			: muestra el estado de los archivos dentro de la carpeta (rojo/no subido, verde/subido)
-git add 			: despuÈs del add escribir el nombre y extension del archivo, lo agrega al git
+git add 			: despu√©s del add escribir el nombre y extension del archivo, lo agrega al git
 				// En el caso de que haya espacios, rodear con comillas, ej: "instrucciones git"
 				: git add . agrega todo lo que hay dentro de la carpeta
 git commit			: abre el editor de git
@@ -15,9 +16,9 @@ git commit			: abre el editor de git
 				i  : escribir
 				esc: sale y se puede realizar otra accion
 				wq : write and quit, escribir y salir
-git log				: muestra lo que se est· subiendo y una llave
+git log				: muestra lo que se est√° subiendo y una llave
 	
-git checkout -- 		: despuÈs de las 2 lineas agregar el nombre del archivo y la extension, deshace los ultimos cambios no guardados
+git checkout -- 		: despu√©s de las 2 lineas agregar el nombre del archivo y la extension, deshace los ultimos cambios no guardados
 				: descarga la ultima version subida y reemplaza la actual
 git checkout   			: nombre de rama, se posiciona sobre la rama seleccionada
 git diff --    	 		: muestra los cambios realizados, las diferencias entre el archivo subido y el actual que estamos editando
