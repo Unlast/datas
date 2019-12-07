@@ -35,3 +35,16 @@ cd NombreDelProyecto
 
 npm start
 http://localhost:3000/
+
+//INSTALAR VUE
+
+npm install -g vue-cli
+vue init webpack-simple nombre-del-proyecto
+cd nombre-del-proyecto
+npm install
+npm run dev
+
+vue --version                 : version de vue
+npm i -g vue                  :update vue
+npm i -g vue-cli              :update vue-cli
+
