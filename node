@@ -1,4 +1,4 @@
-//Instalar Angular
+//INSTALAR Angular
 
 npm install -g npm@latest       : Actualizar npm
 
@@ -21,3 +21,17 @@ Esperamos a que el asistente acabe de generar nuestro proyecto de Angular 7
 cd NOMBRE_DEL_PROYECTO
 ng serve
 //(http://localhost:4200/)
+
+
+//INSTALAR REACT
+
+npm install -g create-react-app
+
+cd
+
+create-react-app NombredelProyecto
+
+cd NombreDelProyecto
+
+npm start
+http://localhost:3000/
