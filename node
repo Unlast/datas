@@ -44,6 +44,7 @@ cd nombre-del-proyecto
 npm install
 npm run dev
 
+//Verficar version vue
 vue --version                 : version de vue
 npm i -g vue                  :update vue
 npm i -g vue-cli              :update vue-cli
